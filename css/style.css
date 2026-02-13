@@ -384,10 +384,14 @@ html,body{
 @media screen and (max-width: 580px) {
 	.header{
 		width: 100%;
-		height: auto;
-		padding: 15px 0;
+		height: 10%;
+		padding: 8px 0;
 		text-align: center;
 		position: relative;
+	}
+
+	.header a{
+		font-size: 13px;
 	}
 
 	.header img{
@@ -395,6 +399,8 @@ html,body{
 		margin-left: -10%;
 		float: none;
 		display: inline-block;
-		height: 60px;
+		height: 50px;
+		margin-top: auto;
+	
 	}	
 }
